@@ -9,8 +9,9 @@ namespace ComicBookGallery.Controllers
 {
     public class ComicBooksController : Controller
     {
-        public ActionResult Detail()
-        {
+        public ActionResult Detail  ()
+        { 
+
               var comicBook = new ComicBook();
 
                 comicBook.SeriesTitle = "The Amazing Spider-Man";
