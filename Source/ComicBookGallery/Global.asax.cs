@@ -13,6 +13,7 @@ namespace ComicBookGallery
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            
         }
     }
 }
