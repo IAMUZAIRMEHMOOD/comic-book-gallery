@@ -26,6 +26,7 @@ namespace ComicBookGallery.Data
                             new Artist() { Name = "Victor Olazaba",Role="Inks"},
                             new Artist() { Name = "Edgar Delgado",Role="Colors"},
                             new Artist() { Name = "Chris Eliopoulos",Role="Letters"},
+
                         }
                      },
                     new ComicBook()
@@ -66,6 +67,10 @@ namespace ComicBookGallery.Data
                         Favorite = false,
     },
                 };
+                    public ComicBook[] GetComicBooks()
+                    {
+                         return _comicBooks;
+                    }
                     public ComicBook GetComicBook(int id)
                                     {
                         ComicBook comicBookToReturn = null;
