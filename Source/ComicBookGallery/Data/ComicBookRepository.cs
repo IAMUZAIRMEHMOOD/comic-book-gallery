@@ -9,11 +9,12 @@ namespace ComicBookGallery.Data
 {
     public class ComicBookRepository
     {
-       
-            private static ComicBook[] _comicBooks = new ComicBook[]
-                {
+
+        private static ComicBook[] _comicBooks = new ComicBook[]
+            {
                     new ComicBook()
                     {
+                        Id = 1,
                         SeriesTitle = "The Amazing Spider-Man",
                         IssueNumber = 700,
                         DescriptionHtml = "<p>Final issue! Witness the final hour of Doctor Octupus' life and his one, last m great act of revenge! Even if Spider-Man survues...<strog> will Peter Parker?</strong></p>",
@@ -28,7 +29,8 @@ namespace ComicBookGallery.Data
                         }
                      },
                     new ComicBook()
-                    {
+                    {   
+                        Id = 2,
                         SeriesTitle = "The Amazing Spider-Man",
                         IssueNumber = 657,
                         DescriptionHtml = "<p>Spider-Man issue! Witness the final hour of Doctor Octupus' life and his one, last m great act of revenge! Even if Spider-Man survues...<strog> will Peter Parker?</strong></p>",
@@ -47,6 +49,7 @@ namespace ComicBookGallery.Data
                      },
                     new ComicBook()
                     {
+                        Id=3,
                         SeriesTitle = "Bone",
                         IssueNumber = 50,
                         DescriptionHtml = "<p><strong>The Dunegon</strong> Witness the final hour of Doctor Octupus' life and his one, last m great act of revenge! Even if Spider-Man survues...<strog> will Peter Parker?</strong></p>",
